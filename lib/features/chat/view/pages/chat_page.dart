@@ -38,7 +38,7 @@ class _ChatPageState extends State<ChatPage> {
                 ),
               )),
               IconButton(onPressed: () {
-                context.read<ChatBloc>().add(ChatEvent.sendMessage(Message(name: "name", message: textEditingController.text.trim(), time: DateTime.now().toIso8601String())));
+                context.read<ChatBloc>().add(ChatEvent.sendMessage(Message(name: "name",id: id, message: textEditingController.text.trim(), time: DateTime.now().toIso8601String())));
                 textEditingController.clear();
               }, icon: Icon(Icons.send)),
             ],

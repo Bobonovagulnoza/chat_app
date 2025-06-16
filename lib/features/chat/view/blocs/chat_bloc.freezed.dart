@@ -1,5 +1,13 @@
+// coverage:ignore-file
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
 
 part of 'chat_bloc.dart';
+
+// **************************************************************************
+// FreezedGenerator
+// **************************************************************************
 
 T _$identity<T>(T value) => value;
 
@@ -13,6 +21,7 @@ mixin _$ChatEvent {
     required TResult Function() fetchChat,
     required TResult Function(Message data) addData,
     required TResult Function(Message data) sendMessage,
+    required TResult Function(Message data) deleteMessage,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -20,6 +29,7 @@ mixin _$ChatEvent {
     TResult? Function()? fetchChat,
     TResult? Function(Message data)? addData,
     TResult? Function(Message data)? sendMessage,
+    TResult? Function(Message data)? deleteMessage,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -27,6 +37,7 @@ mixin _$ChatEvent {
     TResult Function()? fetchChat,
     TResult Function(Message data)? addData,
     TResult Function(Message data)? sendMessage,
+    TResult Function(Message data)? deleteMessage,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -35,6 +46,7 @@ mixin _$ChatEvent {
     required TResult Function(_FetchChat value) fetchChat,
     required TResult Function(_AddData value) addData,
     required TResult Function(_SendMessage value) sendMessage,
+    required TResult Function(_DeleteMessage value) deleteMessage,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -42,6 +54,7 @@ mixin _$ChatEvent {
     TResult? Function(_FetchChat value)? fetchChat,
     TResult? Function(_AddData value)? addData,
     TResult? Function(_SendMessage value)? sendMessage,
+    TResult? Function(_DeleteMessage value)? deleteMessage,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
@@ -49,6 +62,7 @@ mixin _$ChatEvent {
     TResult Function(_FetchChat value)? fetchChat,
     TResult Function(_AddData value)? addData,
     TResult Function(_SendMessage value)? sendMessage,
+    TResult Function(_DeleteMessage value)? deleteMessage,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -118,6 +132,7 @@ class _$FetchChatImpl implements _FetchChat {
     required TResult Function() fetchChat,
     required TResult Function(Message data) addData,
     required TResult Function(Message data) sendMessage,
+    required TResult Function(Message data) deleteMessage,
   }) {
     return fetchChat();
   }
@@ -128,6 +143,7 @@ class _$FetchChatImpl implements _FetchChat {
     TResult? Function()? fetchChat,
     TResult? Function(Message data)? addData,
     TResult? Function(Message data)? sendMessage,
+    TResult? Function(Message data)? deleteMessage,
   }) {
     return fetchChat?.call();
   }
@@ -138,6 +154,7 @@ class _$FetchChatImpl implements _FetchChat {
     TResult Function()? fetchChat,
     TResult Function(Message data)? addData,
     TResult Function(Message data)? sendMessage,
+    TResult Function(Message data)? deleteMessage,
     required TResult orElse(),
   }) {
     if (fetchChat != null) {
@@ -152,6 +169,7 @@ class _$FetchChatImpl implements _FetchChat {
     required TResult Function(_FetchChat value) fetchChat,
     required TResult Function(_AddData value) addData,
     required TResult Function(_SendMessage value) sendMessage,
+    required TResult Function(_DeleteMessage value) deleteMessage,
   }) {
     return fetchChat(this);
   }
@@ -162,6 +180,7 @@ class _$FetchChatImpl implements _FetchChat {
     TResult? Function(_FetchChat value)? fetchChat,
     TResult? Function(_AddData value)? addData,
     TResult? Function(_SendMessage value)? sendMessage,
+    TResult? Function(_DeleteMessage value)? deleteMessage,
   }) {
     return fetchChat?.call(this);
   }
@@ -172,6 +191,7 @@ class _$FetchChatImpl implements _FetchChat {
     TResult Function(_FetchChat value)? fetchChat,
     TResult Function(_AddData value)? addData,
     TResult Function(_SendMessage value)? sendMessage,
+    TResult Function(_DeleteMessage value)? deleteMessage,
     required TResult orElse(),
   }) {
     if (fetchChat != null) {
@@ -256,6 +276,7 @@ class _$AddDataImpl implements _AddData {
     required TResult Function() fetchChat,
     required TResult Function(Message data) addData,
     required TResult Function(Message data) sendMessage,
+    required TResult Function(Message data) deleteMessage,
   }) {
     return addData(data);
   }
@@ -266,6 +287,7 @@ class _$AddDataImpl implements _AddData {
     TResult? Function()? fetchChat,
     TResult? Function(Message data)? addData,
     TResult? Function(Message data)? sendMessage,
+    TResult? Function(Message data)? deleteMessage,
   }) {
     return addData?.call(data);
   }
@@ -276,6 +298,7 @@ class _$AddDataImpl implements _AddData {
     TResult Function()? fetchChat,
     TResult Function(Message data)? addData,
     TResult Function(Message data)? sendMessage,
+    TResult Function(Message data)? deleteMessage,
     required TResult orElse(),
   }) {
     if (addData != null) {
@@ -290,6 +313,7 @@ class _$AddDataImpl implements _AddData {
     required TResult Function(_FetchChat value) fetchChat,
     required TResult Function(_AddData value) addData,
     required TResult Function(_SendMessage value) sendMessage,
+    required TResult Function(_DeleteMessage value) deleteMessage,
   }) {
     return addData(this);
   }
@@ -300,6 +324,7 @@ class _$AddDataImpl implements _AddData {
     TResult? Function(_FetchChat value)? fetchChat,
     TResult? Function(_AddData value)? addData,
     TResult? Function(_SendMessage value)? sendMessage,
+    TResult? Function(_DeleteMessage value)? deleteMessage,
   }) {
     return addData?.call(this);
   }
@@ -310,6 +335,7 @@ class _$AddDataImpl implements _AddData {
     TResult Function(_FetchChat value)? fetchChat,
     TResult Function(_AddData value)? addData,
     TResult Function(_SendMessage value)? sendMessage,
+    TResult Function(_DeleteMessage value)? deleteMessage,
     required TResult orElse(),
   }) {
     if (addData != null) {
@@ -402,6 +428,7 @@ class _$SendMessageImpl implements _SendMessage {
     required TResult Function() fetchChat,
     required TResult Function(Message data) addData,
     required TResult Function(Message data) sendMessage,
+    required TResult Function(Message data) deleteMessage,
   }) {
     return sendMessage(data);
   }
@@ -412,6 +439,7 @@ class _$SendMessageImpl implements _SendMessage {
     TResult? Function()? fetchChat,
     TResult? Function(Message data)? addData,
     TResult? Function(Message data)? sendMessage,
+    TResult? Function(Message data)? deleteMessage,
   }) {
     return sendMessage?.call(data);
   }
@@ -422,6 +450,7 @@ class _$SendMessageImpl implements _SendMessage {
     TResult Function()? fetchChat,
     TResult Function(Message data)? addData,
     TResult Function(Message data)? sendMessage,
+    TResult Function(Message data)? deleteMessage,
     required TResult orElse(),
   }) {
     if (sendMessage != null) {
@@ -436,6 +465,7 @@ class _$SendMessageImpl implements _SendMessage {
     required TResult Function(_FetchChat value) fetchChat,
     required TResult Function(_AddData value) addData,
     required TResult Function(_SendMessage value) sendMessage,
+    required TResult Function(_DeleteMessage value) deleteMessage,
   }) {
     return sendMessage(this);
   }
@@ -446,6 +476,7 @@ class _$SendMessageImpl implements _SendMessage {
     TResult? Function(_FetchChat value)? fetchChat,
     TResult? Function(_AddData value)? addData,
     TResult? Function(_SendMessage value)? sendMessage,
+    TResult? Function(_DeleteMessage value)? deleteMessage,
   }) {
     return sendMessage?.call(this);
   }
@@ -456,6 +487,7 @@ class _$SendMessageImpl implements _SendMessage {
     TResult Function(_FetchChat value)? fetchChat,
     TResult Function(_AddData value)? addData,
     TResult Function(_SendMessage value)? sendMessage,
+    TResult Function(_DeleteMessage value)? deleteMessage,
     required TResult orElse(),
   }) {
     if (sendMessage != null) {
@@ -474,6 +506,158 @@ abstract class _SendMessage implements ChatEvent {
   /// with the given fields replaced by the non-null parameter values.
   @JsonKey(includeFromJson: false, includeToJson: false)
   _$$SendMessageImplCopyWith<_$SendMessageImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class _$$DeleteMessageImplCopyWith<$Res> {
+  factory _$$DeleteMessageImplCopyWith(
+          _$DeleteMessageImpl value, $Res Function(_$DeleteMessageImpl) then) =
+      __$$DeleteMessageImplCopyWithImpl<$Res>;
+  @useResult
+  $Res call({Message data});
+}
+
+/// @nodoc
+class __$$DeleteMessageImplCopyWithImpl<$Res>
+    extends _$ChatEventCopyWithImpl<$Res, _$DeleteMessageImpl>
+    implements _$$DeleteMessageImplCopyWith<$Res> {
+  __$$DeleteMessageImplCopyWithImpl(
+      _$DeleteMessageImpl _value, $Res Function(_$DeleteMessageImpl) _then)
+      : super(_value, _then);
+
+  /// Create a copy of ChatEvent
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? data = null,
+  }) {
+    return _then(_$DeleteMessageImpl(
+      null == data
+          ? _value.data
+          : data // ignore: cast_nullable_to_non_nullable
+              as Message,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$DeleteMessageImpl implements _DeleteMessage {
+  const _$DeleteMessageImpl(this.data);
+
+  @override
+  final Message data;
+
+  @override
+  String toString() {
+    return 'ChatEvent.deleteMessage(data: $data)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$DeleteMessageImpl &&
+            (identical(other.data, data) || other.data == data));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, data);
+
+  /// Create a copy of ChatEvent
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$DeleteMessageImplCopyWith<_$DeleteMessageImpl> get copyWith =>
+      __$$DeleteMessageImplCopyWithImpl<_$DeleteMessageImpl>(this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() fetchChat,
+    required TResult Function(Message data) addData,
+    required TResult Function(Message data) sendMessage,
+    required TResult Function(Message data) deleteMessage,
+  }) {
+    return deleteMessage(data);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? fetchChat,
+    TResult? Function(Message data)? addData,
+    TResult? Function(Message data)? sendMessage,
+    TResult? Function(Message data)? deleteMessage,
+  }) {
+    return deleteMessage?.call(data);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? fetchChat,
+    TResult Function(Message data)? addData,
+    TResult Function(Message data)? sendMessage,
+    TResult Function(Message data)? deleteMessage,
+    required TResult orElse(),
+  }) {
+    if (deleteMessage != null) {
+      return deleteMessage(data);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_FetchChat value) fetchChat,
+    required TResult Function(_AddData value) addData,
+    required TResult Function(_SendMessage value) sendMessage,
+    required TResult Function(_DeleteMessage value) deleteMessage,
+  }) {
+    return deleteMessage(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_FetchChat value)? fetchChat,
+    TResult? Function(_AddData value)? addData,
+    TResult? Function(_SendMessage value)? sendMessage,
+    TResult? Function(_DeleteMessage value)? deleteMessage,
+  }) {
+    return deleteMessage?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_FetchChat value)? fetchChat,
+    TResult Function(_AddData value)? addData,
+    TResult Function(_SendMessage value)? sendMessage,
+    TResult Function(_DeleteMessage value)? deleteMessage,
+    required TResult orElse(),
+  }) {
+    if (deleteMessage != null) {
+      return deleteMessage(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _DeleteMessage implements ChatEvent {
+  const factory _DeleteMessage(final Message data) = _$DeleteMessageImpl;
+
+  Message get data;
+
+  /// Create a copy of ChatEvent
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  _$$DeleteMessageImplCopyWith<_$DeleteMessageImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
