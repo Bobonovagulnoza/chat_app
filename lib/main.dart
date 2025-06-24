@@ -41,7 +41,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// 1. Base64
 void encodeImageBase64(String imagePath) async {
   final receivePort = ReceivePort();
   await Isolate.spawn(_imageToBase64, [receivePort.sendPort, imagePath]);
@@ -57,7 +56,6 @@ void _imageToBase64(List<dynamic> args) {
   sendPort.send(base64);
 }
 
-// 2. Sum of list
 void sumList(List<int> list) async {
   final receivePort = ReceivePort();
   await Isolate.spawn(_sumList, [receivePort.sendPort, list]);
@@ -185,7 +183,7 @@ void evaluateExpression(String expr) async {
   print('Natija: $result');
 }
 
-void _evaluateExpression(List<dynamic> args) {
+void _evaluateExpression(List<dynamic> args){
   final sendPort = args[0] as SendPort;
   final expr = args[1] as String;
   final parser = Parser();
