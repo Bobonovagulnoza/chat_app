@@ -9,13 +9,13 @@ import '../blocs/chat_bloc.dart';
 
 class ChatPage extends StatefulWidget {
   const ChatPage({super.key});
-
   @override
   State<ChatPage> createState() => _ChatPageState();
 }
 
 class _ChatPageState extends State<ChatPage> {
   final TextEditingController textEditingController = TextEditingController();
+  get id => null;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,3 +56,4 @@ class _ChatPageState extends State<ChatPage> {
     super.dispose();
   }
 }
+

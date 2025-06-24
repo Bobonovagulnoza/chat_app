@@ -20,7 +20,8 @@ dependencies:
   json_annotation: ^4.8.1
   flutter_bloc: ^9.1.1
   bloc: ^9.0.0
-
+  dio: ^5.8.0+1
+  math_expressions: ^2.2.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

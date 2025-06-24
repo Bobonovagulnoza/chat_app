@@ -29,7 +29,7 @@ class _ChatBodyState extends State<ChatBody> {
                   reverse: true,
                   itemBuilder: (context, index) {
                     final data = chat[index];
-                    final isMe = data.name == "name";
+                    final isMe = data.name =="name";
 
                     return Row(
                       mainAxisAlignment:
@@ -52,6 +52,7 @@ class _ChatBodyState extends State<ChatBody> {
                               Text(data.message),
                               if (isMe)
                                 Align(
+
                                   alignment: Alignment.bottomRight,
                                   child: IconButton(
                                     icon: const Icon(Icons.delete, size: 18, color: Colors.red),
